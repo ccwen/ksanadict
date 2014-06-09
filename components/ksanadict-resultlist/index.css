@@ -1,0 +1,5 @@
+.resultlist {}
+hl {color:red;}
+hl[n="1"] {color:blue;}
+
+.showpage {text-decoration: underline; cursor:pointer; color:blue;}

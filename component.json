@@ -1,0 +1,39 @@
+{
+  "name": "ksanadict",
+  "repo": "https://github.com/ksanaforge/ksanadict.git",
+  "description": "hello world",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "ksanaforge/boot": "*",
+    "socketio/socketio": "*",
+    "brighthas/bootstrap": "*",
+    "ksana/document": "*",
+    "ksanaforge/kse": "*",
+    "ksanaforge/kse-mixins": "*",
+    "component/jquery": "*",
+    "ksanadict/main": "*",
+    "ksanadict/comp1": "*",
+    "ksanadict/dbselector": "*",
+    "ksanadict/searchbox": "*",
+    "ksanadict/resultlist": "*",
+    "ksanadict/pagetext": "*"
+  },
+  "development": {},
+  "paths": [
+    "components",
+    "../components",
+    "../node_modules/"
+  ],
+  "local": [
+    "facebook/react"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "index.css"
+  ]
+}
