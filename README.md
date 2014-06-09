@@ -1,0 +1,4 @@
+ksanadict
+=========
+
+Ksana Dictionary Interface
