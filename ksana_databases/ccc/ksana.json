@@ -1,0 +1,11 @@
+{
+ "name": "ccc",
+ "author": "yapcheahshen@gmail.com",
+ "template": "simple",
+ "desc": "write description here",
+ "ydbmeta": {
+  "config": "simple1",
+  "outputencoding": "ucs2",
+  "estimatesize": 16777216
+ }
+}

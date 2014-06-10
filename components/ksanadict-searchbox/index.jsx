@@ -12,7 +12,7 @@ var searchbox = React.createClass({
   render: function() {
     return (
       <div>
-        <input defaultValue="page" ref="tofind"></input>
+        <input defaultValue="天地" ref="tofind"></input>
         <button onClick={this.dosearch}>Go</button>
       </div>
     );
