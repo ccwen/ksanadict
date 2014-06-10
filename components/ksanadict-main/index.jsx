@@ -35,10 +35,8 @@ var main = React.createClass({
     }
   },
   opendb:function(dbid) {
-    var that=this;
-    kde.open(dbid,function(db){
-      that.setState({db:db,dbid:dbid});
-      db.setContext(that);
+    kde.open(dbid,this,function(db){
+      this.setState({db:db,dbid:dbid});
       console.log("db "+dbid+" ready")
     })
   },
