@@ -1,5 +1,4 @@
 /** @jsx React.DOM */
-
 var dbselector=Require("dbselector"); 
 var searchbox=Require("searchbox"); 
 var resultlist=Require("resultlist"); 
@@ -42,6 +41,7 @@ var main = React.createClass({
   },
   componentDidMount:function() {
     if (this.state.db)return;
+    
     this.$ksana("enumKdb","ksana_databases").done(function(databases){
       this.setState({databases:databases});
       if (databases.length) {
@@ -49,6 +49,7 @@ var main = React.createClass({
         this.setState({dbid:databases[0]});
       }
     });
+
   },
   render: function() {
     return (
